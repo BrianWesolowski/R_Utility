@@ -1,0 +1,16 @@
+############# Check version of R #############
+
+version
+
+
+############# Check Version of RStudio #############
+
+
+install.packages("rstudioapi")      # if not already installed
+library(rstudioapi)
+RStudio.Version()$version
+
+
+############# Check Version of a package #############
+
+packageVersion("reshape2")
